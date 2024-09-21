@@ -5,13 +5,13 @@ import pandas as pd
 import numpy as np
 
 # Loading .csv file of zomato data using pandas
-df_data = pd.read_csv(r"C:\Users\ritik\OneDrive\Documents\project data analysis\Power bi project\Zamoto project\Zamoto raw data\zomato.csv", encoding='unicode_escape')
+df_data = pd.read_csv(r"Zamoto raw data\zomato.csv", encoding='unicode_escape')
 print(df_data)
 
 
 # Loading excel file of country code using pandas
 
-df_country = pd.read_excel(r"C:\Users\ritik\OneDrive\Documents\project data analysis\Power bi project\Zamoto project\Zamoto raw data\Country-Code.xlsx")
+df_country = pd.read_excel(r"Zamoto raw data\Country-Code.xlsx")
 print(df_country)
 
 
